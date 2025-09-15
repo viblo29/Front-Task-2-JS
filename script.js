@@ -59,5 +59,4 @@ for (let i = 0; i < 2; i++) {
         repeatBasket += ", ";
     }
 }
-repeatBasket = repeatBasket.slice(0, -2);
-console.log(repeatBasket);
+console.log(repeatBasket.slice(0, -2));
