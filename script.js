@@ -18,7 +18,6 @@ for (let i = 0; i < basketArray.length; i++) {
     } else {
         splitBasketArray += basketArray[i]
     }
-
 };
 console.log(splitBasketArray);
 
@@ -40,7 +39,6 @@ console.log(basketArray.indexOf("Mango"));
 basketArray.length > 5 ? console.log("The basket is full") : console.log("The basket has space");
 
 let usersFruit = prompt("Enter a fruit name:");
-
 if (basketArray.includes(usersFruit)) {
     console.log(basketArray);
 } else {
@@ -51,12 +49,10 @@ if (basketArray.includes(usersFruit)) {
 basketArray.reverse();
 console.log(basketArray);
 
-basketArray.reverse();
 let repeatBasket = "";
 for (let i = 0; i < 2; i++) {
     for (let j = 0; j < basketArray.length; j++) {
-        repeatBasket += basketArray[j];
-        repeatBasket += ", ";
+        repeatBasket += basketArray[j] + ", "
     }
 }
 console.log(repeatBasket.slice(0, -2));
