@@ -49,6 +49,7 @@ if (basketArray.includes(usersFruit)) {
 basketArray.reverse();
 console.log(basketArray);
 
+basketArray.reverse();
 let repeatBasket = "";
 for (let i = 0; i < 2; i++) {
     for (let j = 0; j < basketArray.length; j++) {
